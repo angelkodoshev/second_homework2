@@ -1,13 +1,13 @@
-# second_homework2defmodule Homework do
+  # second_homework2defmodule Homework do
 
   def first_task() do
     # Using a pattern match, assign "Alice" to a variable "first_name", and "Addison" to variable "last_name"
 
 
-   first_name="Alice"
-   last_name="Addison"
-   tuple={first_name,last_name}
-    _ = {"Alice", "Addison"}
+       first_name="Alice"
+      last_name="Addison"
+      tuple={first_name,last_name}
+       _ = {"Alice", "Addison"}
 
 
 
@@ -23,12 +23,12 @@
 
     # Create a patter, that will fail if the first item of the tuple is anything other than "200"
     
- x=200
- string="example data"
- atom=:an_atom
- tuple={y,string,atom}//error
- tuple={x,string,atom}
- _ = {200, "example data", :an_atom}
+     x=200
+     string="example data"
+     atom=:an_atom
+     tuple={y,string,atom}//error
+     tuple={x,string,atom}
+     _ = {200, "example data", :an_atom}
 
 
     # From here on, do not use variables. All of these are heavily inspired by elixirkoans
