@@ -1,12 +1,12 @@
-  # second_homework2defmodule Homework do
+   # second_homework2defmodule Homework do
 
-  def first_task() do
-    # Using a pattern match, assign "Alice" to a variable "first_name", and "Addison" to variable "last_name"
-
+       def first_task() do
+       # Using a pattern match, assign "Alice" to a variable "first_name", and "Addison" to variable "last_name"
+ 
 
        first_name="Alice"
-      last_name="Addison"
-      tuple={first_name,last_name}
+       last_name="Addison"
+       tuple={first_name,last_name}
        _ = {"Alice", "Addison"}
 
 
@@ -53,6 +53,6 @@
     list_ = [1, 2, 3] -- [3]
     [1,2]
 
-end
+     end
   
-end
+     end
